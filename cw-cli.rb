@@ -3,9 +3,9 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class CwCli < Formula
   desc "Command line tool for local web application development"
-  homepage ""
-  url "https://github.com/cyberwoven/cw-cli/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0498ae935758e7ddc510acc9a184a539b1b9eb1acd07f282e9610f3c8257101d"
+  homepage "https://github.com/cyberwoven/cw-cli"
+  url "https://github.com/cyberwoven/cw-cli/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "bc8054e55b8c694e3ef531b0ebafa099b97ee209dc7ad754ed09064e1f65b4f6"
   license "MIT"
 
   # depends_on "cmake" => :build
