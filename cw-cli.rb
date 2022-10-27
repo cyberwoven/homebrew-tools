@@ -4,11 +4,11 @@
 class CwCli < Formula
   desc "Command line tool for local web application development"
   homepage "https://github.com/cyberwoven/cw-cli"
-  url "https://github.com/cyberwoven/cw-cli/archive/refs/tags/v1.0.2.tar.gz"
-  sha256 "246fc3f0595a4cbbee65be5aca01b299d9a953905f2f6997e446b7c64fa6b9bc"
+  url "https://github.com/cyberwoven/cw-cli/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "84001430fe64eef371f298de3f88187784deeaef08e5fc19ae7959ce6f443c7c"
   license "MIT"
 
-  # depends_on "cmake" => :build
+  depends_on "mydumper"
 
   def install
     bin.install "bin/cw"
