@@ -4,8 +4,8 @@
 class CwCli < Formula
   desc "Command line tool for local web application development"
   homepage "https://github.com/cyberwoven/cw-cli"
-  url "https://github.com/cyberwoven/cw-cli/archive/refs/tags/v1.2.2.tar.gz"
-  sha256 "6f82386f4bd4a1064733b3e55a14d7475aa666060db982aa98093e452b386297"
+  url "https://github.com/cyberwoven/cw-cli/archive/refs/tags/v1.2.3.tar.gz"
+  sha256 "f99dc428d51cf976ff5a50c872349d996c3fa4ce3d544496bc65c125623510f3"
   license "MIT"
 
   depends_on "mydumper"
