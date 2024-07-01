@@ -5,7 +5,7 @@ class CwCli < Formula
   sha256 "27cab27c6d1d6032a692359cf9926dd95e5699f392178f5670ad2221c0b82c70"
   license "MIT"
 
-  depends_on "cyberwoven/tools/mydumper"
+  # depends_on "cyberwoven/tools/mydumper"
 
   def install
     bin.install "bin/cw"
