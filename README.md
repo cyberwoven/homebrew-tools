@@ -6,8 +6,8 @@
 * download the tar, and run the `shasum` on it. example below:
 
 ``` bash
-  $ shasum -a 256 cw-cli-0.2.1.tar.gz
-  # bc8054e55b8c694e3ef531b0ebafa099b97ee209dc7ad754ed09064e1f65b4f6 cw-cli-0.2.1.tar.gz
+  $ curl -sL https://github.com/cyberwoven/cw-cli/archive/refs/tags/v2.4.0.tar.gz | shasum -a 256
+  # 2e24413c6f0b66e91b7a42c87065aef4776302272ec7ca5f4f5bfc15bb089caa
 ```
 
 * take url to tarball and the hash and replace in `cw-cli.rb`. 
